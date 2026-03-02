@@ -56,7 +56,7 @@ class ConverterGUI:
 
     def start_conversion(self):
         if not self.pdf_folder or not self.json_folder:
-            self.log("error: choose boyh folders!")
+            self.log("error: choose both folders!")
             return
         
         self.start_button.config(state="disabled")
